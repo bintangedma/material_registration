@@ -1,0 +1,8 @@
+Material
+--------
+- id (PK)
+- material_code (Unique)
+- name
+- material_type (Enum: Fabric, Jeans, Cotton)
+- buy_price (>= 100)
+- supplier_id (FK -> Supplier.id)
